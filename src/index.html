@@ -2,11 +2,55 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>IFFMC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <div id="displaySection" class="w-100 h-75">
+      <div id="lftBtnCol" style="width: 15vw;" class="h-100 btncol float-start d-inline-block">
+      <button class="btn btn-secondary w-100 my-4">-</button>
+      <button class="btn btn-secondary w-100 my-4">-</button>
+      <button class="btn btn-secondary w-100 my-4">-</button>
+      <button class="btn btn-secondary w-100 my-4">-</button>
+      </div><div id="screenCol" style="width: 70vw; color: rgb(0, 196, 0);" class="h-100 d-inline-block bg-dark">
+      <p id='currentTxtInput'></p>
+      </div><div id="rhtBtnCol" style="width: 15vw;" class="h-100 float-end d-inline-block">
+      <button class="btn btn-secondary w-100 my-4">-</button>
+      <button class="btn btn-secondary w-100 my-4">-</button>
+      <button class="btn btn-secondary w-100 my-4">-</button>
+      <button class="btn btn-secondary w-100 my-4">-</button>
+      </div>
+    </div>
+    <div id="btnSec" class="w-100 h-25 bg-secondary">
+      <button class="btn btn-dark w-auto mx-1 my-2">
+        EXEC
+      </button>
+      <button class="btn btn-dark w-auto mx-1 my-2">
+        FPLN
+      </button>
+      <button class="btn btn-dark w-auto mx-1 my-2">
+        LEGS
+      </button>
+      <button class="btn btn-dark w-auto mx-1 my-2">
+        CLB
+      </button>
+      <button class="btn btn-dark w-auto mx-1 my-2">
+        CRZ
+      </button>
+      <button class="btn btn-dark w-auto mx-1 my-2">
+        DES
+      </button>
+      <button class="btn btn-dark w-auto border border-light border-2 mx-1 my-2">
+        PREV PAGE
+      </button>
+      <button class="btn btn-dark w-auto border border-light border-2 mx-1 my-2">
+        NEXT PAGE
+      </button>
+    </div>
+    <script src="fmc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>
