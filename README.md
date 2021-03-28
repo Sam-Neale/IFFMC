@@ -1,6 +1,6 @@
 # IFFMC
 
-Discord: https://discord.gg/aMf87FkTwW
+Guilded (Communications): https://www.guilded.gg/i/1pPv6572
 
 ## Introduction
 
